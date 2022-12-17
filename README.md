@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/srSPEEDiness/PWEB-PLUS/main/install/icone.jpg" height="400px"/>
+  <img src="https://github.com/srSPEEDiness/PWEB-PLUS/blob/main/install/icone.jpg" height="400px"/>
 </p>
 <h2 align="center">✩░▒▓▆▅▃▂▁<b>VELOCIDADE E CONEXÃO</b>▁▂▃▅▆▓▒░✩</h2> 
 <br>
@@ -12,12 +12,12 @@
 
 
 
-# 🚀COMANDO DE INSTALAÇÃO
+# 🚀 COMANDO DE INSTALAÇÃO
 ```
 bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/main/install/ubuinst.sh)
 ```
 
-# 🔄SINCRONIZADOR SSH</br> 
+# 🔄 SINCRONIZADOR SSH 
 <h3><b>⚠(Executar na VPS do Painel SSH)⚠</b></h3>
 
 ```
