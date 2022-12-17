@@ -14,14 +14,14 @@
 
 # 🚀 COMANDO DE INSTALAÇÃO
 ```
-bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/main/install/ubuinst.sh)
+bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/ubuinst.sh)
 ```
 
 # 🔄 SINCRONIZADOR SSH 
 <h3><b>⚠(Executar na VPS do Painel SSH)⚠</b></h3>
 
 ```
-apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/main/install/sincpainel.sh)
+apt install wget -y; bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/sincpainel.sh)
 ```
 # Modo de instalação
 Só joga na máquina e deixar instalar
