@@ -12,7 +12,7 @@
 
 
 
-# 🚀COMANDO DE INSTALAÇÃO, SÓ COPIAR E COLAR:
+# 🚀COMANDO DE INSTALAÇÃO
 ```
 bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/main/install/ubuinst.sh)
 ```
