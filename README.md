@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/srSPEEDiness/SPEEDSSH-PLUS/blob/main/icone.jpg" height="400px"/>
+  <img src="https://github.com/srSPEEDiness/PWEB-PLUS/main/install/icone.jpg" height="400px"/>
 </p>
 <h2 align="center">✩░▒▓▆▅▃▂▁<b>VELOCIDADE E CONEXÃO</b>▁▂▃▅▆▓▒░✩</h2> 
 <br>
