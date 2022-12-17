@@ -279,16 +279,16 @@ function install_continue {
 function install_continue2 {
 cd /bin || exit
 rm pweb > /dev/null 2>&1
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/pweb > /dev/null 2>&1
+wget https://github.com/srSPEEDiness/PWEB-PLUS/main/install/pweb > /dev/null 2>&1
 chmod 777 pweb > /dev/null 2>&1
 clear
 [[ ! -d /bin/ppweb ]] && mkdir /bin/ppweb
 cd /bin/ppweb || exit
 rm *.sh ver* > /dev/null 2>&1
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/verifatt.sh > /dev/null 2>&1
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/verpweb > /dev/null 2>&1
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/verweb > /dev/null 2>&1
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/whatsapp.sh > /dev/null 2>&1
+wget https://github.com/srSPEEDiness/PWEB-PLUS/main/install/verifatt.sh > /dev/null 2>&1
+wget https://github.com/srSPEEDiness/PWEB-PLUS/main/install/verpweb > /dev/null 2>&1
+wget https://github.com/srSPEEDiness/PWEB-PLUS/main/install/verweb > /dev/null 2>&1
+wget https://github.com/srSPEEDiness/PWEB-PLUS/main/install/whatsapp.sh > /dev/null 2>&1
 verp=$(sed -n '1 p' /bin/ppweb/verpweb| sed -e 's/[^0-9]//ig') &>/dev/null
 verw=$(sed -n '1 p' /bin/ppweb/verweb| sed -e 's/[^0-9]//ig') &>/dev/null
 echo -e "$verp" >/bin/ppweb/attpweb
@@ -331,7 +331,7 @@ curl -sS https://getcomposer.org/installer | php > /dev/null 2>&1
 mv composer.phar /usr/local/bin/composer > /dev/null 2>&1
 chmod +x /usr/local/bin/composer > /dev/null 2>&1
 cd /var/www/html || exit
-wget https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/gestorssh.zip > /dev/null 2>&1
+wget https://github.com/srSPEEDiness/PWEB-PLUS/main/install/gestorssh.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
 unzip gestorssh.zip > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer install > /dev/null 2>&1
@@ -422,7 +422,7 @@ echo ""
 echo -e "PAINEL WEB SPEED PLUS" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mBy @srSPEEDiness\033[1;36m" | lolcat
 echo ""
-chave=$(curl -sSL "https://github.com/Jhowmt1989/Jhowpainelweb/raw/main/painelwv5/chave") &>/dev/null
+chave=$(curl -sSL "https://github.com/srSPEEDiness/PWEB-PLUS/main/install/chave") &>/dev/null
 
 read -p "DESEJA INSTALAR? [S/N]: " key
     
