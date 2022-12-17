@@ -424,7 +424,7 @@ echo -e "                              \033[1;31mBy @srSPEEDiness\033[1;36m" | l
 echo ""
 chave=$(curl -sSL "https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/chave") &>/dev/null
 
-read -p "DESEJA INSTALAR? [S/N]: " key
+read -p "DIGITE @SPEED PARA CONTINUAR: " key
     
          if [[ "$key" = "$chave" ]]
          then
@@ -434,7 +434,7 @@ read -p "DESEJA INSTALAR? [S/N]: " key
                 echo -e "[*] CHAVE ACEITA"
                 sleep 2
             else
-            echo "[-] DIGITE S E NÃO s!"
+            echo "[-] DIGITE COM LETRAS MAIUSCULAS!"
             sleep 3
             clear
             cat /dev/null > ~/.bash_history && history -c
