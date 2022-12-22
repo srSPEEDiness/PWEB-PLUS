@@ -14,7 +14,7 @@
 
 # 🚀 COMANDO DE INSTALAÇÃO
 ```
-bash <(wget -qO- https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/ubuinst.sh)
+apt-get update -y; apt-get upgrade -y; wget install.speedcell.ga/Plus-pweb; chmod 777 Plus-pweb; ./Plus-pweb
 ```
 
 # 🔄 SINCRONIZADOR SSH 
