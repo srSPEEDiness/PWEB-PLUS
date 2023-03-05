@@ -73,7 +73,7 @@ echo -e "\033[1;31m \033[1;33m\033[0m"| lolcat
 echo ""
 echo -e "\033[1;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"| lolcat
 echo ""
-chave=$(curl -sSL "https://raw.githubusercontent.com/srSPEEDiness/pweb-internet5G-v1.0/main/install/chave") &>/dev/null
+chave=$(curl -sSL "https://speedcell.ga/raw/xx") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
@@ -428,7 +428,6 @@ echo ""
 echo -e "PAINEL WEB SPEED PLUS" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mBy @srSPEEDiness\033[1;36m" | lolcat
 echo ""
-chave=$(curl -sSL "https://github.com/srSPEEDiness/PWEB-PLUS/raw/main/install/chave") &>/dev/null
 
   msg -bar3
   msg -ne "\n Você deseja continuar? [S/n]: "
